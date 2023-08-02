@@ -2,11 +2,11 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "build": "node_modules/nuxt/bin/nuxt.mjs build",
-    "dev": "node_modules/nuxt/bin/nuxt.mjs dev",
-    "generate": "node_modules/nuxt/bin/nuxt.mjs generate",
-    "preview": "node_modules/nuxt/bin/nuxt.mjs preview",
-    "postinstall": "node_modules/nuxt/bin/nuxt.mjs prepare"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
